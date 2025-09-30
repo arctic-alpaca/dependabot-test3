@@ -1,0 +1,14 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+resolver = "3"
+members = [
+    "foo",
+    "bar",
+]
+
+
+[workspace.dependencies]
+wasm-bindgen-futures = "0.4"
